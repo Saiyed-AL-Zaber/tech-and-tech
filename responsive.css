@@ -1,14 +1,28 @@
 /* media-screen-for-laptop */
 @media screen and (max-width: 992px) {
-    .carousel-width{
-        width: 60% !important;
-    }
-    .carousel-item img{
-        height: 60vh;
-        object-fit: cover;
-        object-position: right  center;
-    }
+  .carousel-width {
+    width: 70% !important;
   }
+  .carousel-caption {
+    height: 200px;
+  }
+}
 /* media-screen-for-tablet */
-
-
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+/* media-screen-for-mobile */
+@media screen and (max-width: 540px) {
+  .carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  .carousel-caption {
+    height: 250px;
+  }
+}
