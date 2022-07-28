@@ -1,0 +1,14 @@
+/* media-screen-for-laptop */
+@media screen and (max-width: 992px) {
+    .carousel-width{
+        width: 60% !important;
+    }
+    .carousel-item img{
+        height: 60vh;
+        object-fit: cover;
+        object-position: right  center;
+    }
+  }
+/* media-screen-for-tablet */
+
+

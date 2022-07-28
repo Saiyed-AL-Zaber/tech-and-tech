@@ -10,3 +10,8 @@
     transform: translate(-50%, -50%);
     height: auto;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
