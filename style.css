@@ -47,4 +47,25 @@
 #question-section{
     margin-bottom: 70px;
 }
-
+/* style-for-company-section-start-here */
+#company-section{
+    margin-bottom: 90px;
+}
+.company-name img{
+    width: 100px;
+}
+/* style-for-footer-section-start-here */
+  .social-icon a {
+    color: white;
+    font-size: 28px;
+    margin: 0 20px;
+  }
+  .fa-brands:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-out;
+  }
+  .footer-hr{
+    width: 2px;
+    height: 15px;
+    margin: auto 8px;
+  }
