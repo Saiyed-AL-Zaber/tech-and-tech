@@ -26,9 +26,9 @@
 }
 /* media-screen-for-mobile */
 @media screen and (max-width: 576px) {
-  body {
+  /* body {
     overflow-x: hidden !important;
-  }
+  } */
   .carousel-item img {
     height: 50vh;
     object-fit: cover;
@@ -37,7 +37,7 @@
   .carousel-caption {
     height: 250px;
   }
-  .coursel-text > div {
+  .coursel-text>div {
     padding: 0 30px;
   }
   .student-text {
