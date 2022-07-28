@@ -1,6 +1,6 @@
 /* media-screen-for-laptop */
 @media screen and (max-width: 992px) {
-  .carousel-width {
+  .carousel-caption-text {
     width: 70% !important;
   }
   .carousel-caption {
