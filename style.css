@@ -20,7 +20,7 @@
 #courses-section{
     margin: 90px 0;
 }
-.coursel-text>div{
+.course-text>div{
     padding: 0 200px;
 }
 
@@ -35,5 +35,16 @@
 }
 .student-text{
     width: 50%;
+}
+/* style-for-review-section-start-here */
+#review-section{
+    margin-bottom: 80px;
+}
+.fa-solid, .fa-star-half{
+    color: goldenrod;
+}
+/* style-for-question-section-start-here */
+#question-section{
+    margin-bottom: 70px;
 }
 
