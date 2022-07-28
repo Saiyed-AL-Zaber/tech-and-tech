@@ -20,7 +20,7 @@
 #courses-section{
     margin: 90px 0;
 }
-.course-text>div{
+.coursel-text>div{
     padding: 0 200px;
 }
 
@@ -29,5 +29,8 @@
 #ready-section{
     margin: 70px 0;
 }
-
+/* style-for-ready-section-start-here */
+.student-text{
+    width: 50%;
+}
 
