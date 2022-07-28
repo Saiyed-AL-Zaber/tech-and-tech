@@ -15,10 +15,11 @@
 </head>
 
 <body>
+    <!-- header-section-star-here -->
     <header id="header-section">
         <div class="container">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-lg py-4">
+                <div class="container-fluid">
                     <div class="navbar-brand">
                         <img src="images/logo.png" alt="">
                     </div>
@@ -26,9 +27,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="myNav">
-                        <ul class="navbar-nav mx-md-auto gap-md-4">
+                        <ul class="navbar-nav mx-md-auto gap-md-2">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" href="#">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Courses</a>
@@ -37,24 +38,58 @@
                                 <a class="nav-link" href="#">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Success</a>
+                                <a class="nav-link" href="#">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">About</a>
+                                <a class="nav-link" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Register</a>
+                                <a class="nav-link" href="#">Register</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="d-none d-md-block">
+                    <div class="d-none d-lg-block">
                         <input class="btn btn-outline-primary text-uppercase" type="button" value="registation">
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
     </header>
+    <!-- header-section-end-here -->
+    <!-- banner-section-star-here -->
+    <section id="banner-section">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active rounded-lg position-relative" data-bs-interval="2500">
+                        <img src="images/cover/cover-4.png" class="d-block w-100 rounded" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Get Started Digital Learning</h1>
+                            <p class="text-light">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 rounded" alt="...">
 
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="images/cover/cover-5.jpg" class="d-block w-100 rounded" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
