@@ -6,23 +6,32 @@
   .carousel-caption {
     height: 200px;
   }
+  .course-text>div{
+    padding: 0 130px;
+}
 }
 /* media-screen-for-tablet */
 @media screen and (max-width: 768px) {
   .carousel-item img {
-    height: 80vh;
+    height: 60vh;
     object-fit: cover;
     object-position: center;
   }
+  .course-text>div{
+    padding: 0 90px;
+}
 }
 /* media-screen-for-mobile */
 @media screen and (max-width: 540px) {
   .carousel-item img {
-    height: 60vh;
+    height: 50vh;
     object-fit: cover;
     object-position: center;
   }
   .carousel-caption {
     height: 250px;
   }
+  .course-text>div{
+    padding: 0 30px;
+}
 }

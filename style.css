@@ -16,3 +16,13 @@
   height: 3rem;
 }
 /* style-for-carousel-end-here */
+/* style-for-course-start-here */
+#courses-section{
+    margin: 90px 0;
+}
+.course-text>div{
+    padding: 0 200px;
+}
+
+/* style-for-course-ends-here */
+
